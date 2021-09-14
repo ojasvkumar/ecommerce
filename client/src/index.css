@@ -1,0 +1,48 @@
+.slider img {
+    height: 450px;
+    object-fit: contain;
+}
+.pointer {
+    cursor: pointer;
+}
+.disabled-div {
+    pointer-events: none;
+    opacity: 0.5;
+}
+/*.footer{*/
+/*    margin-top: 1rem;*/
+/*    padding: 1rem;*/
+/*    background-color: rgb(235, 195, 64);*/
+/*    position: fixed;*/
+/*    top: calc(100vh - 100px);*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*}*/
+
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+    background-color: #282828;
+    padding: 20px;
+}
